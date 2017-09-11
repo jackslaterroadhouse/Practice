@@ -1,0 +1,51 @@
+<html>
+	<head>
+				
+		<style>
+		
+		#flex { display: flex; flex-direction: column; }
+		#header 	{order: 1;}
+		#content 	{order: 2;}
+		
+		.header {
+			position: fixed;
+			top: 50px;
+			background: #C0C0C0;
+			height: 200px;
+			width: 100%;
+		}
+
+		.content {
+			background: #C0C0C0;
+			text-align: center;
+			font-family: "Arial", Verdana, sans-serif;
+		}
+
+		h1 {
+			text-align: center;
+			font-family: "Arial", Verdana, sans-serif;
+			font-variant: small-caps;
+		}
+		
+		</style>
+	
+		<script>
+		function myFunction() {
+			document.getElementById("demo").innerHTML = "Also a gentle and thorough lover.";
+		}
+		</script>
+
+	</head>
+	<body>
+
+		<div class="header">
+			<h1>Jack Slater</h1>
+		</div>
+		<div class="content">
+			<p id="demo">Foe of Evildoers, Leader of Revolutions, Rescuer of Virgins, Liberator of the Masses, All around Bad-Ass.</p>
+			<button type="button" onclick="myFunction()">Click for More</button>
+		</div>
+
+	</body>
+</html>
+
