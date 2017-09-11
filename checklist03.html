@@ -1,0 +1,108 @@
+<html>
+	<head>
+		<style>
+			h1 {
+				text-decoration-line: underline;
+				font-size: 400%;
+				text-shadow: 1px 1px white;
+				font-variant: small-caps;
+			}
+			h4 {
+				text-decoration-line: underline;
+				font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+				font-variant: small-caps;
+			}
+			#mySidenav a {
+    			position: absolute; /* Position them relative to the browser window */
+			    left: -80px; /* Position them outside of the screen */
+			    transition: 0.3s; /* Add transition on hover */
+			    padding: 15px; /* 15px padding */
+			    width: 100px; /* Set a specific width */
+			    text-decoration: none; /* Remove underline */
+			    font-size: 20px; /* Increase font size */
+			    color: white; /* White text color */
+			    border-radius: 0 5px 5px 0; /* Rounded corners on the top right and bottom right side */
+				text-shadow: 1px 1px #000000;
+			}
+			#mySidenav a:hover {
+			    left: 0; /* On mouse-over, make the elements appear as they should */
+			}
+			#html {
+			    top: 200px;
+			    background-color: #DCDCDC;
+			}
+			#css {
+			    top: 260px;
+			    background-color: #A9A9A9;
+			}
+			#js {
+			    top: 320px;
+			    background-color: #696969;
+			}
+			#java {
+			    top: 380px;
+			    background-color: #000000;
+			}
+			.section {
+				display: flex;
+				flex-direction: column;
+			}
+			.header {
+				background-color: #A9A9A9;
+				background-opacity: 0.3;
+				background-repeat: no-repeat;
+				background-size: 100% 100%;
+				background-position: center;
+				height: 140px;
+				text-align: center;
+				font-family: "Rajdhani", "Raleway", "Quicksand", sans-serif;
+				border-style: solid;
+				border-width: 1px;
+				border-spacing: 4px;
+				border-color: black;
+				border-radius: 5px 5px 5px 5px;
+				padding: 5px
+				margin: 5px;
+			}
+			.main {
+				text-align: ;
+				left: ;
+				position: none;
+				left: 410px;
+				margin-left: 110px;
+				margin-right: 110px;
+				border-style: solid;
+				border-color: #DCDCDC;
+				text-align: center;
+			}
+			.section > .header {order: 1;}
+			.section > .main {order: 2;}
+			.section > .footer {order: 3;}
+		</style>
+		<script>
+		</script>
+		<title>Jack Slater Programming Checklist</title>
+	</head>
+	<body>
+		<div id="mySidenav" class="sidenav">
+  			<a href="#" id="html">HTML</a>
+  			<a href="#" id="css">CSS</a>
+  			<a href="#" id="js">JavaScript</a>
+  			<a href="#" id="java">Java</a>
+		</div>
+		<div class="section">
+			<div class="header">
+				<h1>Programming Practice</h1>
+			</div>
+			<div class="main">
+				<h4>This is a page for keeping track of programming practice projects</h4>
+				<ul>
+					<li>HTML Pages
+					<li>CSS Pages
+					<li>JS Pages
+					<li>JavaScript Pages
+				</ul>
+			</div>
+		</div>
+	</body>
+</html>
