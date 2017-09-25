@@ -1,0 +1,13 @@
+<html>
+	<body>
+		<p>Display "Good Day!" if the hour is less than 18:00:</p>
+
+		<p id="time">Good Evening!</p>
+
+		<script>
+			if (new Date().getHours() < 18) {
+				document.getElementById("time").innerHTML = "Good Day!";
+			}
+		</script>
+	</body>
+</html>
