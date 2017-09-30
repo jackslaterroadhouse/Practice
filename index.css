@@ -1,0 +1,140 @@
+			@import url('https://fonts.googleapis.com/css?family=Lobster');
+			@import url('https://fonts.googleapis.com/css?family=Cabin');
+			@import url('https://fonts.googleapis.com/css?family=Raleway');
+			@import url('https://fonts.googleapis.com/css?family=Allerta');
+
+			body {
+				margin-left: 360px;
+				background: #232B2B url("images/hotrod02.png") no-repeat top left;
+				font-family: 'Raleway', Helvetica, Arial, sans-serif;
+				max-width: 1200px;
+
+			}
+			
+			a {
+			    color: #E3AE57;
+			    font-family: 'Raleway', Helvetica, Arial, sans-serif;
+			}
+			a:visited {
+			    color: #DC3D24;
+			    font-family: 'Raleway', Helvetica, Arial, sans-serif;
+			}
+			a:hover {
+			    color: #E9967A;
+			    font-family: 'Raleway', Helvetica, Arial, sans-serif;
+			}
+			a:focus {
+			    color: #F5F5DC;
+			    font-family: 'Raleway', Helvetica, Arial, sans-serif;
+			}
+			a:active {
+			    color: #F5F5DC;
+			    font-family: 'Raleway', Helvetica, Arial, sans-serif;
+			}
+
+			h1 {
+				color: #DC3D24;
+				font-family: 'Lobster', Georgia, Times, serif;
+				text-decoration-line: underline;
+				font-size: 72px;
+				text-shadow: 1px 1px black;/*Adds Shadow*/
+				/*font-variant: small-caps;*/
+			}
+			h2 {
+				text-decoration-line: underline;
+				font-family: "Cabin", "Helvetica", Arial, sans-serif;
+				font-size: 36px;
+				/*font-variant: small-caps;*/
+			}
+			h4 {
+				color: #F5F5DC;
+				font-family: 'Allerta', Helvetica, Arial, sans-serif;
+				font-size: 16px;
+				text-align: center;
+			}
+			h5 {
+				font-family: 'Allerta', Helvetica, Arial, sans-serif;
+				font-size: 10px;
+			}
+			h6 {
+				color: #DC3D24;
+				font-family: 'Allerta', Helvetica, Arial, sans-serif;
+				font-size: 8px;
+				text-align: center;
+			}
+			#mySidenav a {
+    			position: absolute; /* Position them relative to the browser window */
+			    left: -80px; /* Position them outside of the screen */
+			    transition: 0.3s; /* Add transition on hover */
+			    padding: 15px; /* 15px padding */
+			    width: 100px; /* Set a specific width */
+			    text-decoration: none; /* Remove underline */
+			    font-size: 20px; /* Increase font size */
+			    color: white; /* White text color */
+			    border-radius: 0 5px 5px 0; /* Rounded corners on the top right and bottom right side */
+				text-shadow: 1px 1px #000000;
+			}
+			#mySidenav a:hover {
+			    left: 0; /* On mouse-over, make the elements appear as they should */
+			}
+			#html {
+			    top: 300px;
+			    background-color: #DCDCDC;
+			}
+			#css {
+			    top: 360px;
+			    background-color: #A9A9A9;
+			}
+			#js {
+			    top: 420px;
+			    background-color: #696969;
+			}
+			#comp {
+			    top: 480px;
+			    background-color: #000000;
+			}
+			.section {
+				display: flex;
+				flex-direction: column;
+			}
+			.header {
+				background-color: #A9A9A9;
+				background-opacity: 0.3;
+				background-repeat: no-repeat;
+				background-size: 6px 10px;
+				background-position: center;
+				/*height: 200px;*/
+				text-align: center;
+				font-family: "Rajdhani", "Raleway", "Quicksand", sans-serif;
+				border-style: solid;
+				max-width: 1000px;
+				border-width: 1px;
+				border-spacing: 4px;
+				border-color: black;
+				border-radius: 5px 5px 5px 5px;
+				padding: 5px
+				margin: 5px;
+			}
+			.main {
+				color: #F5F5DC;
+				/*max-width: 1000px;*/
+			}
+			.subheader {
+				color: #E3AE57;
+				background-color: #232B2B;
+				text-align: ;
+				left: ;
+				position: none;
+				left: 410px;
+				max-width: 778px;
+				margin-left: 110px;
+				margin-right: 110px;
+				border-style: solid;
+				border-color: #DCDCDC;
+				text-align: center;
+			}
+			.section > .header {order: 1;}
+			.section > .subheader {order: 2;}
+			.section > .main {order: 3;}
+			.section > .footer {order: 4;
+			}
