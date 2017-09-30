@@ -2,6 +2,7 @@
 	<head>	
 		<title>Jack Slater Programming Checklist</title>
 		<link rel="StyleSheet" type="text/css" href="index.css">
+		<script type="text/javascript" src="index.js"></script>
 	</head>
 	<body>
 		<div id="mySidenav" class="sidenav">
@@ -16,12 +17,14 @@
 			</div>
 			<div class="subheader">
 				<h2>This is a list of programming projects</h2>
-				<ul>
-					<li><a href="#html">HTML Pages</a>
-					<li><a href="#css">CSS Pages</a>
-					<li><a href="#js">JavaScript Pages</a>
-					<li><a href="#comp">Compilation Pages</a>
+				<input type="text" id="myinput" onkeyup="myFunction()" placeholder="Search for sites" title="Type in a site name">
+				<ul id="myul" style="list-style: none;">
+					<li><a href="#html">HTML</a></li>
+					<li><a href="#css">CSS</a></li>
+					<li><a href="#js">JavaScript</a></li>
+					<li><a href="#comp">Compilation</a></li>
 				</ul>
+			
 			</div>
 			<div class="main">
 				<a name="html">

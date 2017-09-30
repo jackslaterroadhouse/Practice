@@ -4,14 +4,14 @@
 			@import url('https://fonts.googleapis.com/css?family=Allerta');
 
 			body {
-				margin-left: 360px;
-				background: #232B2B url("images/hotrod02.png") no-repeat top left;
-				font-family: 'Raleway', Helvetica, Arial, sans-serif;
-				max-width: 1200px;
+				margin-left: 400px;/*creates open space and tells all elements within to begin 400px left*/
+				background: #232B2B url("images/hotrod02.png") no-repeat top left;/*Hot Rod picture and BG color*/
+				font-family: 'Raleway', Helvetica, Arial, sans-serif;/*base font style for page*/
+				max-width: 1200px;/*stops scaling of page width at 1200px*/
 
 			}
 			
-			a {
+			a {/*addresses properties of all "a" links*/
 			    color: #E3AE57;
 			    font-family: 'Raleway', Helvetica, Arial, sans-serif;
 			}
@@ -32,7 +32,8 @@
 			    font-family: 'Raleway', Helvetica, Arial, sans-serif;
 			}
 
-			h1 {
+			h1 { /*addresses properties of all "h1" text*/
+
 				color: #DC3D24;
 				font-family: 'Lobster', Georgia, Times, serif;
 				text-decoration-line: underline;
@@ -40,29 +41,29 @@
 				text-shadow: 1px 1px black;/*Adds Shadow*/
 				/*font-variant: small-caps;*/
 			}
-			h2 {
+			h2 { /*addresses properties of all "h2" text*/
 				text-decoration-line: underline;
 				font-family: "Cabin", "Helvetica", Arial, sans-serif;
 				font-size: 36px;
 				/*font-variant: small-caps;*/
 			}
-			h4 {
+			h4 { /*addresses properties of all "h4" text*/
 				color: #F5F5DC;
 				font-family: 'Allerta', Helvetica, Arial, sans-serif;
 				font-size: 16px;
 				text-align: center;
 			}
-			h5 {
+			h5 { /*addresses properties of all "h5" text*/
 				font-family: 'Allerta', Helvetica, Arial, sans-serif;
 				font-size: 10px;
 			}
-			h6 {
+			h6 { /*addresses properties of all "h6" text*/
 				color: #DC3D24;
 				font-family: 'Allerta', Helvetica, Arial, sans-serif;
 				font-size: 8px;
 				text-align: center;
 			}
-			#mySidenav a {
+			#mySidenav a { /*the master tag of the sidenav tabs*/
     			position: absolute; /* Position them relative to the browser window */
 			    left: -80px; /* Position them outside of the screen */
 			    transition: 0.3s; /* Add transition on hover */
@@ -107,7 +108,7 @@
 				text-align: center;
 				font-family: "Rajdhani", "Raleway", "Quicksand", sans-serif;
 				border-style: solid;
-				max-width: 1000px;
+				/*max-width: 1000px;*/
 				border-width: 1px;
 				border-spacing: 4px;
 				border-color: black;
@@ -126,7 +127,7 @@
 				left: ;
 				position: none;
 				left: 410px;
-				max-width: 778px;
+				max-width: 978px;
 				margin-left: 110px;
 				margin-right: 110px;
 				border-style: solid;
