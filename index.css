@@ -139,3 +139,39 @@
 			.section > .main {order: 3;}
 			.section > .footer {order: 4;
 			}
+			/*
+			* {
+				box-sizing: border-box;
+			}
+
+			#myinput {
+				background: #232B2B url('/images/searchicon.png');
+				background-position: 10px 12px;
+				background-repeat: no-repeat;
+				width: 100%;
+				font-size: 16px;
+				padding: 12px 20px 12px 40px;
+				border: 1px solid #ddd;
+				margin-bottom: 12px;
+			}
+
+			#myul {
+				background: #232B2B;
+				list-style-type: none;
+				padding: 0;
+				margin: 0;
+			}
+
+			#myul li a {
+				border: 1px solid #ddd;
+				margin-top: -1px;
+				background-color: #232B2B;
+				padding: 12px;
+				text-decoration: none;
+				color: #E3AE57;
+				display: block
+			}
+
+			#myul li a:hover:not(.searchheader) {
+				background-color: #232B2B;
+			}*/
